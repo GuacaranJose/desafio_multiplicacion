@@ -2,7 +2,7 @@ function multiplicacion() {
   let numerousu = prompt("Ingrese un numero entero del 1 al 20");
 
   //rango de los numero(alerta si pone un numero mayor a 20 o menor a 1)
-  if (numerousu < 1 || numerousu > 20) {
+  if (numerousu % 1 || numerousu < 1 || numerousu > 20) {
     alert = "Por favor ingresar un numero entre el 1 al 20";
     multiplicacion();
   }
@@ -39,3 +39,4 @@ function multiplicacion() {
     console.log(`El factorial de ${mul} es ${factorial(mul)}`);
   }
 }
+multiplicacion ();
