@@ -39,4 +39,4 @@ function multiplicacion() {
     console.log(`El factorial de ${mul} es ${factorial(mul)}`);
   }
 }
-multiplicacion ();
+multiplicacion();
